@@ -5,9 +5,13 @@ body{
 	margin: 0 auto;
 	overflow-x: hidden;
 }
-h2{
-	border-bottom: 2px solid;
-	color: black;
+.descida{
+	/*
+	background: rgb(0,5,59);
+	background: linear-gradient(0deg, rgba(0,5,59,1) 49%, rgba(190,245,85,1) 100%);
+	*/
+	background: rgb(0,5,59);
+	background: linear-gradient(0deg, rgba(0,5,59,1) 49%, rgba(85,166,245,1) 100%);
 }
 .main-page{
 	background-image: url('/images/background.jpg');
@@ -15,16 +19,36 @@ h2{
 	background-size: cover;
 	background-attachment: fixed;
 }
-
 .rodape{
 	margin-top: -4px;
 	position: fixed;
 	bottom: 0;
 	z-index: 1001;
+	height: 20pt;
+	color: white;
 }
-
 .tcenter{
 	text-align: center;
+}
+.titulo{
+	font-size: 70pt;
+}
+#descer{
+	font-size: 50pt;
+	color: white;
+}
+.poco{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.cabecalho{
+	width: 40%;
+	margin: auto;
+}
+.boas-vindas{
+	position: relative;
+	height: 100vh;
 }
 
 /* DIVS */
