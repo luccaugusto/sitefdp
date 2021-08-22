@@ -33,7 +33,7 @@ body{
 .titulo{
 	font-size: 70pt;
 }
-#descer{
+.descer{
 	font-size: 50pt;
 	color: white;
 }
@@ -41,6 +41,7 @@ body{
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+	height: 35%;
 }
 .cabecalho{
 	width: 40%;
@@ -49,6 +50,9 @@ body{
 .boas-vindas{
 	position: relative;
 	height: 100vh;
+}
+.clicavel:hover{
+	cursor: pointer;
 }
 
 /* DIVS */
@@ -181,4 +185,7 @@ body{
 }
 .h100{
 	height: 100%;
+}
+.h100px{
+	height: 100px;
 }
