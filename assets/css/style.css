@@ -13,11 +13,12 @@ body{
 	background: rgb(0,5,59);
 	background: linear-gradient(0deg, rgba(0,5,59,1) 49%, rgba(85,166,245,1) 100%);
 }
-.main-page{
-	background-image: url('/images/background.jpg');
+.homepage{
+	/*background-image: url('/images/background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
+	height: 3000px;
 }
 .rodape{
 	margin-top: -4px;
@@ -27,11 +28,17 @@ body{
 	height: 20pt;
 	color: white;
 }
+.tentaculos{
+	width: 100%;
+}
 .tcenter{
 	text-align: center;
 }
 .titulo{
 	font-size: 70pt;
+}
+.bem-vindo{
+	width: 40%;
 }
 .descer{
 	font-size: 50pt;
@@ -44,7 +51,7 @@ body{
 	height: 35%;
 }
 .cabecalho{
-	width: 40%;
+	width: 80%;
 	margin: auto;
 }
 .boas-vindas{
@@ -188,4 +195,11 @@ body{
 }
 .h100px{
 	height: 100px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 808px){
+	.bem-vindo{
+		width: 100%;
+	}
 }
